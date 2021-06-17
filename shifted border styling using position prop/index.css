@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40vw;
+    height: 40vh;
+    border: 3px solid skyblue;
+
+    /* below cpde is to place this image 
+    at the center of view-port */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ball{
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 40px auto;
+    animation: bounce 4s infinite;
+}
+
+@keyframes bounce {
+    
+    50%{
+        height: 50px;
+        width: 100px;
+        transform: translateY(50vh);
+    }
+
+}
+

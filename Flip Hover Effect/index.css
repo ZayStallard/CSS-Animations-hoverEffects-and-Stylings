@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 40vh;
+  height: 50vh;
+  border-radius: 10%;
+  margin: 70px auto;
+
+  /* *   below code is to place both 
+    *   box-front & box-back one behind another */
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  color: white;
+
+  /* *   below code is to place both 
+    *   box-front & box-back one behind another */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  /* below code is to place the 
+    p-element at the center of the box */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-front {
+  background-color: #d51d48;
+  opacity: 1;
+}
+
+.box-back {
+  background-color: #ce4525;
+  transform: rotateY(-180deg);
+  opacity: 0;
+}
+
+/*! below is the actual hover code */
+.container:hover .box-front {
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+
+.container:hover .box-back {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+.container,
+.box-front,
+.box-back {
+    transition: opacity 1s linear 1s, transform 2s linear 0s;
+}
+
+

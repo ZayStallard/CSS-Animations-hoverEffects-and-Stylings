@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80vw;
+  height: 50vh;
+
+  /* below code is to place this container 
+    at the center of view-port */
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* below code is to activate flex */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+}
+
+.box-1 {
+  background-color: cyan;
+  flex-grow: 1;
+}
+
+.box-2 {
+  background-color: orchid;
+  flex-grow: 1;
+}
+
+.box-3 {
+  background-color: bisque;
+}
+
+
+@media screen and (min-width:900px) {
+    .box{
+        width: 33%;
+    }
+
+    .box-3{
+        flex-grow: 1;
+    }
+}

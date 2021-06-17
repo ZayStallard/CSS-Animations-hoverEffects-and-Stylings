@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.right{
+    animation: right 5s 1;
+}
+
+.left{
+    animation: left 5s 1;
+}
+
+@keyframes right {
+    
+    0%{
+        transform: translateX(-50vw);
+    }
+
+    33%{
+        transform: translateX(23vw);
+    }
+
+    66%{
+        transform: translateX(-18vw);
+    }
+
+    100%{
+        transform: translateX(0vw);
+    }
+
+}
+
+@keyframes left {
+    
+    0%{
+        transform: translateX(50vw);
+    }
+
+    33%{
+        transform: translateX(-23vw);
+    }
+
+    66%{
+        transform: translateX(18vw);
+    }
+
+    100%{
+        transform: translateX(0vw);
+    }
+
+}
+

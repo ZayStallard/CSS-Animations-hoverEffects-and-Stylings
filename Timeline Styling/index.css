@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  max-width: 500px;
+  margin: 40px;
+  margin: auto;
+}
+
+.box {
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.box p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  max-width: 450px;
+}
+
+/* !below is the actual code for border*/
+/* !below is the actual code for border*/
+/* !below is the actual code for border*/
+/* !below is the actual code for border*/
+.box{
+    position: relative;
+}
+
+.box:nth-child(odd){
+    content: '';
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+    border-top: 2px dashed orangered;
+    border-right: 2px dashed orangered;
+}
+
+.box:nth-child(even){
+    content: '';
+    width: 50%;
+
+    border-top: 2px dashed orangered;
+    border-left: 2px dashed orangered;
+}
+
+
+/* !below is the actual code for that circle*/
+/* !below is the actual code for that circle*/
+/* !below is the actual code for that circle*/
+/* !below is the actual code for that circle*/
+.circle {
+  width: 25px;
+  height: 25px;
+  background: orangered;
+  border-radius: 50%;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+}
+
+.box-1 .circle,
+.box-3 .circle,
+.box-5 .circle {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  right: -5%;
+}
+
+.box-2 .circle,
+.box-4 .circle,
+.box-6 .circle {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: -5%;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #203060, #584880, #885090, #f880b0, #f8c0d8);
+}
+
+.moon{
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    border-radius: 50%;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30vh;
+}
+
+.moon{
+    box-shadow: 15px 15px 2px 0px white;
+    background: transparent;
+}
+

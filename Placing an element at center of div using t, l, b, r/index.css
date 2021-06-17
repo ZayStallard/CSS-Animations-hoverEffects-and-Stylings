@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grand-parent {
+  width: 70vw;
+  height: 40vh;
+  background-color: bisque;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parent {
+  width: 40%;
+  height: 40%;
+  background-color: burlywood;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.child {
+  width: 20%;
+  height: 20%;
+  background-color: rgb(167, 107, 30);
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

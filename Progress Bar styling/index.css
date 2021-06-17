@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 217, 0, 0.267);
+}
+
+.container{
+    width: 70vw;
+    height: 20px;
+    background: white;
+    border-radius: 20px;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.progress-bar{
+    width: 80%;
+    height: 100%;
+    background-color: gold;
+    border-radius: 20px;
+}
+
+
+
+/* below code is to place h4 & p wrt container */
+.container h4{
+    position: absolute;
+    top: -25px;
+    left: 15px;
+}
+
+.container p{
+    position: absolute;
+    top: -25px;
+    left: 80%;
+}
