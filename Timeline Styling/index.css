@@ -5,86 +5,98 @@
 }
 
 .container {
-  width: 90vw;
   max-width: 500px;
-  margin: 40px;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .box {
   width: 100%;
-  padding: 40px 20px;
+  line-height: 30px;
+  text-align: justify;
+  padding: 40px;
+  /* border: 1px solid black; */
+}
+
+.box h4 {
+  font-size: 23px;
 }
 
 .box p {
-  text-align: justify;
-  font-size: 18px;
-  line-height: 26px;
-  letter-spacing: 1px;
-  max-width: 450px;
+  font-size: 19px;
 }
 
-/* !below is the actual code for border*/
-/* !below is the actual code for border*/
-/* !below is the actual code for border*/
-/* !below is the actual code for border*/
-.box{
-    position: relative;
+/* !below is the actual code for that border */
+/* !below is the actual code for that border */
+/* !below is the actual code for that border */
+/* !below is the actual code for that border */
+.box {
+  position: relative;
+  /* *this code is to place the below pseudo classes wrt this */
 }
 
-.box:nth-child(odd){
-    content: '';
-    width: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
+.box:nth-child(odd):before {
+  content: "";
+  width: 90%;
+  height: 100%;
 
+  position: absolute;
+  top: 0px;
+  right: 0px;
 
-    border-top: 2px dashed orangered;
-    border-right: 2px dashed orangered;
+  border-top: 2px dashed orchid;
+  border-right: 2px dashed orchid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-.box:nth-child(even){
-    content: '';
-    width: 50%;
+.box:nth-child(even)::before {
+  content: "";
+  width: 90%;
+  height: 100%;
 
-    border-top: 2px dashed orangered;
-    border-left: 2px dashed orangered;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  border-top: 2px dashed orchid;
+  border-left: 2px dashed orchid;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
+.box:nth-child(1)::before {
+  border-top: 0;
+}
 
-/* !below is the actual code for that circle*/
-/* !below is the actual code for that circle*/
-/* !below is the actual code for that circle*/
-/* !below is the actual code for that circle*/
+/* !below is the actual code for that circle */
+/* !below is the actual code for that circle */
+/* !below is the actual code for that circle */
+/* !below is the actual code for that circle */
 .circle {
-  width: 25px;
-  height: 25px;
-  background: orangered;
+  width: 40px;
+  height: 40px;
+  background: orchid;
   border-radius: 50%;
-  color: white;
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .box {
   position: relative;
+  /* *this code is to place the below circle div wrt this */
 }
 
-.box-1 .circle,
-.box-3 .circle,
-.box-5 .circle {
+.box:nth-child(odd) .circle {
   position: absolute;
-  top: calc(50% - 12.5px);
-  right: -5%;
+  top: calc(50% - 20px);
+  right: -20px;
 }
 
-.box-2 .circle,
-.box-4 .circle,
-.box-6 .circle {
+.box:nth-child(even) .circle {
   position: absolute;
-  top: calc(50% - 12.5px);
-  left: -5%;
+  top: calc(50% - 20px);
+  left: -20px;
 }
