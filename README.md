@@ -20,7 +20,7 @@ Night Sky Animation: https://codepen.io/ajayStallard/pen/XWMGmrY
 Placing an element at center of div using t, b, l, r: https://codepen.io/ajayStallard/pen/bGqZVdg  
 Progress Bar Styling: https://codepen.io/ajayStallard/pen/gOmEamM  
 Responsive Layout using flexbox: https://codepen.io/ajayStallard/pen/abJMvLx  
-Ring of Fire: https://codepen.io/ajayStallard/pen/RwpXjBq
+Ring of Fire: https://codepen.io/ajayStallard/pen/RwpXjBq  
 Shifted border styling using position property: https://codepen.io/ajayStallard/pen/poeYjqO  
 Shifted border styling using pseudo classes: https://codepen.io/ajayStallard/pen/GRWepbE  
 Styling warning Traffic sign: https://codepen.io/ajayStallard/pen/RwpdoMO  
