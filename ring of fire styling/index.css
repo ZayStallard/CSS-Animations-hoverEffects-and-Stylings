@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kontainer{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+#ring{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
