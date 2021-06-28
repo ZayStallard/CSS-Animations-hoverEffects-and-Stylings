@@ -1,6 +1,9 @@
 # CSS-Animations-hoverEffects-and-Stylings
-This repo consists of CSS Animations, Hover-Effects & Stylings that I make.  
-U can have a look at these projects using below links  
+
+This repo is a home for some of the amazing CSS Animations, Hover-Effects & Stylings which I make.  
+U can peep at these projects using below links.
+
+&nbsp;
 
 Bounce Effect Animation: https://codepen.io/ajayStallard/pen/bGqzXRQ  
 Bouncing Ball Animation: https://codepen.io/ajayStallard/pen/ExWMYNw  
@@ -27,6 +30,4 @@ Styling warning Traffic sign: https://codepen.io/ajayStallard/pen/RwpdoMO
 Timeline Styling: https://codepen.io/ajayStallard/pen/oNZVZRo  
 Vertical Nav links hover effect: https://codepen.io/ajayStallard/pen/WNpmGWq  
 Video background and clip-path: https://codepen.io/ajayStallard/details/ZEePBvK  
-Zoom image hover effect: https://codepen.io/ajayStallard/pen/gOmELdY  
-
-
+Zoom image hover effect: https://codepen.io/ajayStallard/pen/gOmELdY
