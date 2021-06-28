@@ -5,6 +5,11 @@ U can peep at these projects using below links.
 
 &nbsp;
 
+| Project-Title           | Link                                        |
+| ----------------------- | ------------------------------------------- |
+| Bounce Effect Animation | https://codepen.io/ajayStallard/pen/bGqzXRQ |
+| Bouncing Ball Animation | https://codepen.io/ajayStallard/pen/ExWMYNw |
+
 Bounce Effect Animation: https://codepen.io/ajayStallard/pen/bGqzXRQ  
 Bouncing Ball Animation: https://codepen.io/ajayStallard/pen/ExWMYNw  
 Bouncing Balls Animation using cubic-bezier function: https://codepen.io/ajayStallard/pen/XWMGrYV  
